@@ -96,12 +96,15 @@ body {
     transform: translateY(0) rotate(0deg);
     opacity: 0;
   }
+
   10% {
     opacity: 1;
   }
+
   90% {
     opacity: 1;
   }
+
   100% {
     transform: translateY(100vh) rotate(360deg);
     opacity: 0;
@@ -109,8 +112,15 @@ body {
 }
 
 @keyframes snowflakes-shake {
-  0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(20px); }
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
 }
 
 /* Container */
@@ -161,9 +171,17 @@ body {
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .brand-text h2 {
@@ -276,6 +294,7 @@ body {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -372,7 +391,7 @@ body {
   left: 0;
   right: 0;
   padding: 3rem;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
   z-index: 2;
   transform: translateY(20px);
   opacity: 0;
@@ -390,7 +409,7 @@ body {
   color: white;
   font-size: 3.5rem;
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-content p {
@@ -429,7 +448,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   width: 50px;
@@ -445,7 +464,7 @@ body {
 }
 
 .carousel-nav:hover {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -475,8 +494,15 @@ body {
 }
 
 @keyframes pulseDiscount {
-  0%, 100% { transform: rotate(5deg) scale(1); }
-  50% { transform: rotate(5deg) scale(1.05); }
+
+  0%,
+  100% {
+    transform: rotate(5deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(5deg) scale(1.05);
+  }
 }
 
 /* ========== SERVICES SECTION ========== */
@@ -1181,9 +1207,12 @@ body {
 }
 
 @keyframes whatsappFloat {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg);
   }
+
   50% {
     transform: translateY(-15px) rotate(5deg);
   }
@@ -1207,6 +1236,7 @@ body {
     transform: scale(0.8);
     opacity: 0.8;
   }
+
   100% {
     transform: scale(1.5);
     opacity: 0;
@@ -1270,7 +1300,7 @@ footer::before {
   transition: background-color 0.3s ease;
   box-sizing: border-box;
   user-select: none;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .theme-toggle-btn::before {
@@ -1283,7 +1313,7 @@ footer::before {
   background: white;
   border-radius: 50%;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1302,7 +1332,7 @@ footer::before {
 
 .theme-toggle-btn[data-theme="dark"] {
   background: #0072ff;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .theme-toggle-btn[data-theme="dark"]::before {
@@ -1350,7 +1380,7 @@ footer::before {
   .carousel-container {
     height: 500px;
   }
-  
+
   .carousel-content h2 {
     font-size: 3rem;
   }
@@ -1361,35 +1391,35 @@ footer::before {
     height: 450px;
     margin: 1rem;
   }
-  
+
   .carousel-content {
     padding: 2rem;
   }
-  
+
   .carousel-content h2 {
     font-size: 2.5rem;
   }
-  
+
   .services-section h2,
   .testimonials h2,
   .about-title {
     font-size: 2.8rem;
   }
-  
+
   .contact-container {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .contact-map-section {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .nav-center {
     gap: 1.5rem;
   }
-  
+
   .footer-middle {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1399,74 +1429,74 @@ footer::before {
   .navbar {
     padding: 1rem 0;
   }
-  
+
   .mobile-menu-btn {
     display: block;
   }
-  
+
   .nav-center {
     display: none;
   }
-  
+
   .carousel-container {
     height: 400px;
   }
-  
+
   .carousel-content {
     padding: 1.5rem;
   }
-  
+
   .carousel-content h2 {
     font-size: 2rem;
   }
-  
+
   .carousel-content p {
     font-size: 1rem;
   }
-  
+
   .discount-banner {
     top: 15px;
     right: 15px;
     padding: 10px 20px;
     font-size: 1.1rem;
   }
-  
+
   .services-section,
   .testimonials,
   .about-section,
   .contact-section {
     padding: 4rem 1rem;
   }
-  
+
   .services-section h2,
   .testimonials h2,
   .about-title {
     font-size: 2.2rem;
   }
-  
+
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
   }
-  
+
   .about-stats-row {
     gap: 2rem;
   }
-  
+
   .stat-card {
     min-width: 200px;
     padding: 2rem 1.5rem;
   }
-  
+
   .trusted-row {
     gap: 1rem;
   }
-  
+
   .trusted-item {
     padding: 1rem 1.5rem;
     font-size: 0.9rem;
   }
-  
+
   .floating-whatsapp {
     bottom: 20px;
     right: 20px;
@@ -1474,15 +1504,15 @@ footer::before {
     height: 60px;
     font-size: 1.8rem;
   }
-  
+
   .floating-whatsapp::after {
     display: none;
   }
-  
+
   .footer-middle {
     grid-template-columns: 1fr;
   }
-  
+
   .theme-tooltip {
     display: none;
   }
@@ -1492,83 +1522,83 @@ footer::before {
   .brand-text h2 {
     font-size: 1.5rem;
   }
-  
+
   .navbar .logo {
     height: 60px;
   }
-  
+
   .carousel-container {
     height: 300px;
   }
-  
+
   .carousel-content h2 {
     font-size: 1.8rem;
   }
-  
+
   .carousel-nav {
     width: 40px;
     height: 40px;
     font-size: 1.2rem;
   }
-  
+
   .discount-banner {
     padding: 8px 16px;
     font-size: 1rem;
   }
-  
+
   .services-section h2,
   .testimonials h2,
   .about-title {
     font-size: 2rem;
   }
-  
+
   .grid {
     grid-template-columns: 1fr;
     padding: 0.5rem;
   }
-  
+
   .service-card h3 {
     font-size: 1.4rem;
   }
-  
+
   .about-stats-row {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .stat-card {
     width: 100%;
     max-width: 300px;
   }
-  
+
   .trusted-row {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .trusted-item {
     width: 100%;
     max-width: 300px;
     justify-content: center;
   }
-  
+
   .contact-item {
     padding: 1.5rem;
     gap: 1.5rem;
   }
-  
+
   .contact-icon {
     width: 50px;
     height: 50px;
     font-size: 1.5rem;
   }
-  
+
   .floating-whatsapp {
     width: 55px;
     height: 55px;
     font-size: 1.6rem;
   }
-  
+
   .footer-container {
     padding: 2rem 1rem 1rem;
   }
@@ -1580,8 +1610,13 @@ footer::before {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .slide-up {
@@ -1593,6 +1628,7 @@ footer::before {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1617,8 +1653,13 @@ footer::before {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Utility Classes */
@@ -1626,18 +1667,45 @@ footer::before {
   text-align: center;
 }
 
-.mt-1 { margin-top: 1rem; }
-.mt-2 { margin-top: 2rem; }
-.mt-3 { margin-top: 3rem; }
-.mb-1 { margin-bottom: 1rem; }
-.mb-2 { margin-bottom: 2rem; }
-.mb-3 { margin-bottom: 3rem; }
-.p-1 { padding: 1rem; }
-.p-2 { padding: 2rem; }
-.p-3 { padding: 3rem; }
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
 
 /* Print Styles */
 @media print {
+
   .floating-whatsapp,
   .theme-toggle-wrapper,
   .mobile-menu-btn,
@@ -2049,9 +2117,17 @@ footer::before {
 
 /* Animation for discount badge */
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Responsive Design for Service Cards */
@@ -2066,20 +2142,20 @@ footer::before {
   .services-section {
     padding: 4rem 1rem;
   }
-  
+
   .services-section h2 {
     font-size: 2.2rem;
   }
-  
+
   .services-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .features-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .action-buttons {
     flex-direction: column;
   }
@@ -2089,15 +2165,15 @@ footer::before {
   .services-section h2 {
     font-size: 2rem;
   }
-  
+
   .service-title {
     font-size: 1.3rem;
   }
-  
+
   .price-amount {
     font-size: 1.6rem;
   }
-  
+
   .card-body {
     padding: 1.5rem;
   }
@@ -2118,13 +2194,15 @@ footer::before {
 .rain-drop {
   position: absolute;
   top: -30px;
-  color: rgba(173, 216, 230, 0.5); /* Light blue for water effect */
+  color: rgba(173, 216, 230, 0.5);
+  /* Light blue for water effect */
   animation: rain-fall linear infinite;
   filter: blur(0.5px);
 }
 
 .dark .rain-drop {
-  color: rgba(135, 206, 250, 0.5); /* Lighter blue for dark mode */
+  color: rgba(135, 206, 250, 0.5);
+  /* Lighter blue for dark mode */
 }
 
 @keyframes rain-fall {
@@ -2132,12 +2210,15 @@ footer::before {
     transform: translateY(-30px) translateX(0);
     opacity: 0;
   }
+
   5% {
     opacity: var(--opacity, 0.4);
   }
+
   95% {
     opacity: var(--opacity, 0.4);
   }
+
   100% {
     transform: translateY(100vh) translateX(10px);
     opacity: 0;
@@ -2153,17 +2234,15 @@ footer::before {
   transform: translateX(-50%);
   width: 1px;
   height: 50px;
-  background: linear-gradient(to bottom, 
-    rgba(173, 216, 230, 0.3), 
-    rgba(173, 216, 230, 0)
-  );
+  background: linear-gradient(to bottom,
+      rgba(173, 216, 230, 0.3),
+      rgba(173, 216, 230, 0));
 }
 
 .dark .rain-drop::after {
-  background: linear-gradient(to bottom, 
-    rgba(135, 206, 250, 0.3), 
-    rgba(135, 206, 250, 0)
-  );
+  background: linear-gradient(to bottom,
+      rgba(135, 206, 250, 0.3),
+      rgba(135, 206, 250, 0));
 }
 
 
@@ -2440,7 +2519,7 @@ footer::before {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 /* Footer About Section */
@@ -2463,8 +2542,13 @@ footer::before {
 }
 
 @keyframes logo-spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .brand-logo h2 {
@@ -2502,8 +2586,15 @@ footer::before {
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 /* Footer Links Grid */
@@ -2671,32 +2762,32 @@ footer::before {
   .site-footer {
     padding: 3rem 1.5rem 1.5rem;
   }
-  
+
   .footer-about {
     padding-bottom: 1.5rem;
   }
-  
+
   .brand-logo h2 {
     font-size: 1.8rem;
   }
-  
+
   .footer-links-grid {
     padding-bottom: 2rem;
   }
-  
+
   .footer-column h3 {
     font-size: 1.2rem;
   }
-  
+
   .footer-links a {
     font-size: 0.95rem;
   }
-  
+
   .social-link {
     padding: 10px 16px;
     font-size: 0.95rem;
   }
-  
+
   .payment-icons {
     font-size: 1.8rem;
   }
@@ -2706,20 +2797,20 @@ footer::before {
   .site-footer {
     padding: 2.5rem 1rem 1rem;
   }
-  
+
   .footer-links-bottom {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   .footer-links-bottom span {
     display: none;
   }
-  
+
   .footer-tagline {
     font-size: 0.95rem;
   }
-  
+
   .payment-icons {
     font-size: 1.5rem;
     gap: 10px;
@@ -2732,6 +2823,7 @@ footer::before {
     opacity: 0;
     transform: translateY(50px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -2761,7 +2853,8 @@ footer::before {
   width: 100%;
   text-align: center;
   position: relative;
-  z-index: 10; /* Ensure it's above other elements */
+  z-index: 10;
+  /* Ensure it's above other elements */
 }
 
 .whatsapp-btn:hover {
@@ -2904,9 +2997,12 @@ footer::before {
 
 
 @keyframes pulseWhatsApp {
-  0%, 100% {
+
+  0%,
+  100% {
     box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
   }
+
   50% {
     box-shadow: 0 8px 30px rgba(37, 211, 102, 0.5);
   }
@@ -3005,8 +3101,15 @@ footer::before {
 }
 
 @keyframes pulseDiscount {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 /* Emergency Notice */
@@ -3063,11 +3166,11 @@ footer::before {
     margin: 2rem;
     padding: 1.8rem;
   }
-  
+
   .service-details h2 {
     font-size: 2.4rem;
   }
-  
+
   .service-details img {
     height: 350px;
   }
@@ -3078,33 +3181,33 @@ footer::before {
     margin: 1.5rem;
     padding: 1.5rem;
   }
-  
+
   .service-details h2 {
     font-size: 2rem;
   }
-  
+
   .service-details p {
     font-size: 1.1rem;
     padding: 0;
     text-align: left;
   }
-  
+
   .service-details img {
     height: 300px;
   }
-  
+
   .book-now {
     padding: 1rem 2rem;
     font-size: 1.2rem;
     width: 100%;
     max-width: 400px;
   }
-  
+
   .price-section {
     flex-direction: column;
     gap: 1rem;
   }
-  
+
   .features-list {
     grid-template-columns: 1fr;
   }
@@ -3115,24 +3218,24 @@ footer::before {
     margin: 1rem;
     padding: 1.2rem;
   }
-  
+
   .service-details h2 {
     font-size: 1.8rem;
   }
-  
+
   .service-details img {
     height: 250px;
   }
-  
+
   .book-now {
     font-size: 1.1rem;
     padding: 0.9rem 1.8rem;
   }
-  
+
   .service-features {
     padding: 1.5rem;
   }
-  
+
   .service-features h3 {
     font-size: 1.5rem;
   }
@@ -3144,6 +3247,7 @@ footer::before {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -3155,6 +3259,7 @@ footer::before {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -3282,4 +3387,3 @@ footer::before {
 .contact-link:hover {
   text-decoration: underline;
 }
-

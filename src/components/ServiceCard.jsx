@@ -17,17 +17,17 @@ const ServiceCard = ({ service }) => {
   const handleWhatsAppBooking = (e) => {
     e.preventDefault();
     e.stopPropagation();
-    
+
     // Method 1: Using window.location (most reliable)
     window.location.href = sendWhatsappBooking(service);
-    
+
     // Method 2: Using <a> tag approach
     // const link = document.createElement('a');
     // link.href = sendWhatsappBooking(service);
     // link.target = '_blank';
     // link.rel = 'noopener noreferrer';
     // link.click();
-    
+
     // Method 3: Using window.open with better compatibility
     // const newWindow = window.open(sendWhatsappBooking(service), '_blank', 'noopener,noreferrer');
     // if (newWindow) newWindow.opener = null;
@@ -41,7 +41,7 @@ const ServiceCard = ({ service }) => {
       {/* Card Header with Image */}
       <div className="card-header">
         <img src={service.image} alt={service.title} />
-        
+
         {/* Badges Container */}
         <div className="badge-container">
           {service.discount && (
@@ -51,7 +51,7 @@ const ServiceCard = ({ service }) => {
             <span className="popular-badge">Popular</span>
           )}
         </div>
-        
+
         {/* Tag Badge */}
         {service.tag && (
           <span className={`tag-badge ${service.tag.toLowerCase().replace(' ', '-')}`}>
@@ -59,17 +59,17 @@ const ServiceCard = ({ service }) => {
           </span>
         )}
       </div>
-      
+
       {/* Card Body */}
       <div className="card-body">
         {/* Title and Rating */}
         <div className="card-title-section">
           <h3 className="service-title">{service.title}</h3>
         </div>
-        
+
         {/* Description */}
         <p className="service-description">{service.shortDesc}</p>
-        
+
         {/* Features */}
         <div className="features-container">
           <div className="features-grid">
@@ -81,14 +81,14 @@ const ServiceCard = ({ service }) => {
             ))}
           </div>
         </div>
-        
+
         {/* Footer with Price and Actions */}
         <div className="card-footer">
-         
-          
+
+
           <div className="action-buttons">
             {/* OPTION 1: Direct anchor tag (most reliable) */}
-            <a 
+            <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -100,7 +100,7 @@ const ServiceCard = ({ service }) => {
             >
               <span>Book Now</span>
             </a>
-            
+
             {/* OPTION 2: If you prefer button with onClick */}
             {/* <button 
               className="whatsapp-btn"
