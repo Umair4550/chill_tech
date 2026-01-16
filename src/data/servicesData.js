@@ -2,12 +2,14 @@ import acInstallation from "../assets/services/ac-installation.jpg";
 import acRepair from "../assets/services/ac-repair.jpg";
 import gasFilling from "../assets/services/gas-filling.jpg";
 import refrigerator from "../assets/services/refrigerator.jpg";
-import deepFreezer from "../assets/services/deep-freezer.jpg";
-import dispenser from "../assets/services/water-dispenser.jpg";
+import deepFreezer from "../assets/services/deep-freezer.png";
+import dispenser from "../assets/services/water-dispenser.png";
 import commercial from "../assets/services/commercial-cooling.jpg";
-import shifting from "../assets/services/ac-shifting.jpg";
-//import maintenance from "../assets/services/amc.jpg";
-//import emergency from "../assets/services/emergency.jpg";
+import shifting from "../assets/services/ac-shifting.png";
+import amc from "../assets/services/contract-service.png";
+import vents from "../assets/services/ac-vent-service.png";
+import washing from "../assets/services/washing-machine-repair.png";
+import maintenance from "../assets/services/maintainance.webp";
 
 export default [
   {
@@ -87,7 +89,7 @@ export default [
   },
   {
     id: 7,
-    title: "Commercial Cooling Solutions",
+    title: "Commercial Cooling",
     image: commercial,
     shortDesc: "Cold rooms, chillers, walk-in coolers for businesses",
     fullDesc: "Complete commercial cooling solutions for hotels, restaurants, supermarkets, and industries. We install and maintain cold rooms, chillers, walk-in coolers, and display freezers.",
@@ -100,7 +102,7 @@ export default [
   },
   {
     id: 8,
-    title: "AC Shifting / Relocation",
+    title: "AC Shifting",
     image: shifting,
     shortDesc: "Safe removal & re-installation with gas recovery",
     fullDesc: "Professional AC shifting and relocation services. We safely remove, transport, and re-install your AC units with proper gas recovery and recharging to ensure optimal performance.",
@@ -112,8 +114,8 @@ export default [
   },
   {
     id: 9,
-    title: "Annual Maintenance Contract",
-    image: gasFilling,
+    title: "Maintenance Contracts",
+    image: amc,
     shortDesc: "Monthly & yearly AC/Fridge maintenance plans",
     fullDesc: "Cost-effective AMC plans for homes, offices, and shops. Choose from monthly, quarterly, or yearly maintenance contracts covering all your cooling appliances.",
     discount: "40%",
@@ -125,15 +127,38 @@ export default [
   },
   {
     id: 10,
-    title: "AC Vent Installation and Repair Service",
-    image: gasFilling,
-    shortDesc: "Same-day urgent repair service, 24/7 availability",
-    fullDesc: "Quick response emergency AC & refrigerator repair service available 24/7. Our technicians reach your location within 2 hours for urgent cooling issues.",
+    title: "AC Vent Services",
+    image: vents,
+    shortDesc: "Duct cleaning, vent repair, and airflow optimization",
+    fullDesc: "Improve your indoor air quality with our professional specific duct and vent cleaning services. We remove dust, mold, and allergens from your AC vents.",
     discount: "25%",
     price: "89",
-    features: ["24/7 Available", "2 Hour Response", "All Areas", "Urgent Fix"],
+    features: ["Deep Cleaning", "Sanitization", "Airflow Check", "Odor Removal"],
+    popular: false,
+    rating: 4.7
+  },
+  {
+    id: 11,
+    title: "Washing Machine Repair",
+    image: washing,
+    shortDesc: "Expert repair for all washing machine brands",
+    fullDesc: "We fix all washing machine types including top-load, front-load and automatic. Solutions for drainage issues, motor problems, board errors and more.",
+    discount: "15%",
+    price: "55",
+    features: ["All Brands", "Motor Repair", "PCB Fixing", "Genuine Parts"],
     popular: true,
-    rating: 4.9,
-    tag: "Emergency"
+    rating: 4.5
+  },
+  {
+    id: 12,
+    title: "General Maintenance",
+    image: maintenance,
+    shortDesc: "Overall appliance checkup and tuning",
+    fullDesc: "General checkup and tuning service for all your home appliances. We ensure everything is running efficiently and preventing breakdown before they happen.",
+    discount: "10%",
+    price: "29",
+    features: ["Multi-Appliance", "Efficiency Check", "Preventive Care", "Expert Advice"],
+    popular: false,
+    rating: 4.4
   }
 ];
