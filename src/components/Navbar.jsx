@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import ThemeToggle from "./ThemeToggle";
 import logo from "../assets/app-icon.png";
 
 const Navbar = () => {
@@ -107,7 +106,7 @@ const Navbar = () => {
         </div>
 
         <div className="nav-right">
-          <ThemeToggle />
+          
 
           {/* Mobile Menu Button */}
           <button

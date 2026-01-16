@@ -1494,7 +1494,7 @@ footer::before {
   }
   
   .navbar .logo {
-    height: 40px;
+    height: 60px;
   }
   
   .carousel-container {
@@ -2901,10 +2901,7 @@ footer::before {
   transform: translateY(-2px) scale(1.02);
 }
 
-.book-now::after {
-  content: '💬';
-  font-size: 1.5rem;
-}
+
 
 @keyframes pulseWhatsApp {
   0%, 100% {
@@ -2931,10 +2928,6 @@ footer::before {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.service-features h3::before {
-  content: '✅';
 }
 
 .features-list {

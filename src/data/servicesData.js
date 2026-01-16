@@ -125,7 +125,7 @@ export default [
   },
   {
     id: 10,
-    title: "Emergency 24/7 Service",
+    title: "AC Vent Installation and Repair Service",
     image: gasFilling,
     shortDesc: "Same-day urgent repair service, 24/7 availability",
     fullDesc: "Quick response emergency AC & refrigerator repair service available 24/7. Our technicians reach your location within 2 hours for urgent cooling issues.",

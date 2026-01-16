@@ -18,7 +18,7 @@ const AboutSection = () => {
         {/* Stats Row */}
         <div className="about-stats-row">
           <div className="stat-card">
-            <h3>10+ Years</h3>
+            <h3>20+ Years</h3>
             <p>Industry Experience</p>
           </div>
 

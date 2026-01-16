@@ -36,13 +36,13 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Connect With Us</h3>
             <div className="social-links">
-              <a href="https://wa.me/923029855708" target="_blank" rel="noopener noreferrer" className="social-link whatsapp">
+              <a href="https://wa.me/923038848221" target="_blank" rel="noopener noreferrer" className="social-link whatsapp">
                 💬 WhatsApp
               </a>
-              <a href="tel:03029855708" className="social-link phone">
+              <a href="tel:03038848221" className="social-link phone">
                 📱 Call Now
               </a>
-              <a href="mailto:info@chilltech.com" className="social-link email">
+              <a href="mailto:abdulghaffar4562@gmail.com" className="social-link email">
                 ✉️ Email
               </a>
             </div>

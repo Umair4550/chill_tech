@@ -43,8 +43,8 @@ const ContactSection = () => {
               <div className="contact-icon">📍</div>
               <div className="contact-details">
                 <h3>Our Location</h3>
-                <p>Rehmanpura, Lahore, Pakistan</p>
-                <p className="contact-subtext">Near Liberty Market</p>
+                <p>Rehmanpura Colony Lahore, Pakistan</p>
+                <p className="contact-subtext">Visit us for consultations</p>
               </div>
             </div>
             
@@ -52,7 +52,7 @@ const ContactSection = () => {
               <div className="contact-icon">📞</div>
               <div className="contact-details">
                 <h3>Call Us Anytime</h3>
-                <a href="tel:+923029855708" className="phone-link">0302 9855708</a>
+                <a href="tel:+923038848221" className="phone-link">0303 8848221</a>
                 <p className="contact-subtext">24/7 Emergency Service</p>
               </div>
             </div>
@@ -61,7 +61,7 @@ const ContactSection = () => {
               <div className="contact-icon">✉️</div>
               <div className="contact-details">
                 <h3>Email Us</h3>
-                <a href="mailto:info@chilltech.com" className="email-link">info@chilltech.com</a>
+                <a href="mailto:abdulghaffar4562@gmail.com" className="email-link">abdulghaffar4562@gmail.com</a>
                 <p className="contact-subtext">Response within 24 hours</p>
               </div>
             </div>
