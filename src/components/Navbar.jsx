@@ -106,7 +106,7 @@ const Navbar = () => {
         </div>
 
         <div className="nav-right">
-          
+
 
           {/* Mobile Menu Button */}
           <button
@@ -157,7 +157,7 @@ const Navbar = () => {
               Contact
             </button>
 
-            <a href="tel:03029855708" className="mobile-nav-link call-btn">
+            <a href="tel:03038848221" className="mobile-nav-link call-btn">
               Call Now
             </a>
           </div>

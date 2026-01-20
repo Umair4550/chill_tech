@@ -61,7 +61,7 @@ const ContactSection = () => {
               <div className="contact-icon">✉️</div>
               <div className="contact-details">
                 <h3>Email Us</h3>
-                <a href="mailto:abdulghaffar4562@gmail.com" className="email-link">abdulghaffar4562@gmail.com</a>
+                <a href="mailto:chilltech444@gmail.com" className="email-link">chilltech444@gmail.com</a>
                 <p className="contact-subtext">Response within 24 hours</p>
               </div>
             </div>

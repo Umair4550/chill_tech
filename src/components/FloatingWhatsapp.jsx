@@ -1,39 +1,101 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+import whatsappLogo from "../assets/logo/whatsapp.png";
 
 const FloatingWhatsapp = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Delay appearance for better UX
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 1000);
-
+    const timer = setTimeout(() => setVisible(true), 800);
     return () => clearTimeout(timer);
   }, []);
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    const message = "Hello! I'm interested in your cooling services. Can you help me?";
-    const phone = "923029855708";
-    window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
-  };
+  if (!visible) return null;
+
+  const phone = "923038848221";
+  const message =
+    "Hello! I'm interested in your cooling services. Can you please assist me?";
+
+  const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(
+    message
+  )}`;
 
   return (
     <a
-      href="https://wa.me/923029855708"
+      href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="floating-whatsapp"
-      onClick={handleClick}
-      style={{
-        opacity: isVisible ? 1 : 0,
-        transform: isVisible ? 'translateY(0)' : 'translateY(100px)',
-        transition: 'opacity 0.5s ease, transform 0.5s ease'
-      }}
       aria-label="Chat with us on WhatsApp"
+      style={{
+        position: "fixed",
+        bottom: "20px",
+        right: "45px",
+        width: "60px",
+        height: "60px",
+       
+        borderRadius: "50%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
+        zIndex: 1000,
+        cursor: "pointer",
+        animation: "float 3s ease-in-out infinite",
+      }}
     >
-      <span role="img" aria-label="WhatsApp">💬</span>
+      {/* Pulse Ring */}
+      <span
+        style={{
+          position: "absolute",
+          inset: "-10px",
+          borderRadius: "50%",
+          border: "2px solid rgba(37, 211, 102, 0.4)",
+          animation: "pulse 2.2s infinite",
+        }}
+      />
+
+      <img
+        src={whatsappLogo}
+        alt="WhatsApp"
+        style={{
+          width: "60px",
+          height: "60px",
+          zIndex: 2,
+        }}
+      />
+
+      {/* Inline Keyframes */}
+      <style>
+        {`
+          @keyframes float {
+            0%, 100% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-10px);
+            }
+          }
+
+          @keyframes pulse {
+            0% {
+              transform: scale(0.85);
+              opacity: 0.8;
+            }
+            100% {
+              transform: scale(1.5);
+              opacity: 0;
+            }
+          }
+
+          @media (max-width: 768px) {
+            a[aria-label="Chat with us on WhatsApp"] {
+              width: 54px !important;
+              height: 54px !important;
+              bottom: 16px !important;
+              right: 16px !important;
+            }
+          }
+        `}
+      </style>
     </a>
   );
 };

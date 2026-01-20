@@ -70,58 +70,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-/* ========== ANIMATED COOLING ICON ========== */
-.cooling-animation-container {
-  position: fixed;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  z-index: 9999;
-  pointer-events: none;
-  animation: snowflakes-fall 15s linear infinite;
-}
 
-.cooling-icon {
-  font-size: 2rem;
-  position: absolute;
-  color: var(--primary);
-  filter: drop-shadow(0 0 10px rgba(0, 136, 204, 0.3));
-  animation: snowflakes-shake 3s ease-in-out infinite;
-  opacity: 0.8;
-}
-
-@keyframes snowflakes-fall {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 0;
-  }
-
-  10% {
-    opacity: 1;
-  }
-
-  90% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateY(100vh) rotate(360deg);
-    opacity: 0;
-  }
-}
-
-@keyframes snowflakes-shake {
-
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-
-  50% {
-    transform: translateX(20px);
-  }
-}
 
 /* Container */
 .container {
@@ -167,21 +116,7 @@ body {
 .navbar .logo {
   height: 50px;
   width: auto;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.05);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+  
 }
 
 .brand-text h2 {
@@ -491,18 +426,6 @@ body {
   animation: pulseDiscount 2s infinite;
   box-shadow: 0 5px 15px rgba(255, 71, 87, 0.3);
   z-index: 2;
-}
-
-@keyframes pulseDiscount {
-
-  0%,
-  100% {
-    transform: rotate(5deg) scale(1);
-  }
-
-  50% {
-    transform: rotate(5deg) scale(1.05);
-  }
 }
 
 /* ========== SERVICES SECTION ========== */
@@ -1142,106 +1065,6 @@ body {
 }
 
 
-/* ========== ENHANCED FLOATING WHATSAPP ========== */
-.floating-whatsapp {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background: linear-gradient(135deg, #25D366, #128C7E);
-  color: white;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.2rem;
-  text-decoration: none;
-  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
-  z-index: 1000;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  animation: whatsappFloat 3s ease-in-out infinite;
-  overflow: hidden;
-}
-
-.floating-whatsapp::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.floating-whatsapp::after {
-  content: 'Message us!';
-  position: absolute;
-  right: 80px;
-  background: #333;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  white-space: nowrap;
-  opacity: 0;
-  transform: translateX(10px);
-  transition: all 0.3s ease;
-  pointer-events: none;
-}
-
-.floating-whatsapp:hover::after {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.floating-whatsapp:hover {
-  transform: scale(1.1) rotate(15deg);
-  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.4);
-}
-
-.floating-whatsapp:hover::before {
-  opacity: 1;
-}
-
-@keyframes whatsappFloat {
-
-  0%,
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-
-  50% {
-    transform: translateY(-15px) rotate(5deg);
-  }
-}
-
-/* WhatsApp Pulse Effect */
-.floating-whatsapp::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  border: 2px solid rgba(37, 211, 102, 0.3);
-  border-radius: 50%;
-  animation: pulseRing 2s infinite;
-}
-
-@keyframes pulseRing {
-  0% {
-    transform: scale(0.8);
-    opacity: 0.8;
-  }
-
-  100% {
-    transform: scale(1.5);
-    opacity: 0;
-  }
-}
 
 /* ========== FOOTER ========== */
 footer {

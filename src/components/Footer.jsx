@@ -37,20 +37,20 @@ const Footer = () => {
             <h3>Connect With Us</h3>
             <div className="social-links">
               <a href="https://wa.me/923038848221" target="_blank" rel="noopener noreferrer" className="social-link whatsapp">
-                💬 WhatsApp
+                 WhatsApp
               </a>
               <a href="tel:03038848221" className="social-link phone">
-                📱 Call Now
+                 Call Now
               </a>
               <a href="mailto:abdulghaffar4562@gmail.com" className="social-link email">
-                ✉️ Email
+                 Email
               </a>
             </div>
             
             <div className="payment-methods">
               <h4>We Accept:</h4>
               <div className="payment-icons">
-                <span>💳</span>
+                
                 <span>🏦</span>
                 <span>📱</span>
                 <span>💰</span>
