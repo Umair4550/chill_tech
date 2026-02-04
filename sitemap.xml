@@ -3,20 +3,122 @@
 
   <url>
     <loc>https://chilltech.online/</loc>
+    <lastmod>2026-02-02</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://chilltech.online/app-icon.png</image:loc>
+      <image:title>Chill Tech Lahore Logo</image:title>
+      <image:caption>Best AC Repair and Cooling Services in Lahore</image:caption>
+    </image:image>
   </url>
 
-  <url><loc>https://chilltech.online/service/1</loc></url>
-  <url><loc>https://chilltech.online/service/2</loc></url>
-  <url><loc>https://chilltech.online/service/3</loc></url>
-  <url><loc>https://chilltech.online/service/4</loc></url>
-  <url><loc>https://chilltech.online/service/5</loc></url>
-  <url><loc>https://chilltech.online/service/6</loc></url>
-  <url><loc>https://chilltech.online/service/7</loc></url>
-  <url><loc>https://chilltech.online/service/8</loc></url>
-  <url><loc>https://chilltech.online/service/9</loc></url>
-  <url><loc>https://chilltech.online/service/10</loc></url>
-  <url><loc>https://chilltech.online/service/11</loc></url>
-  <url><loc>https://chilltech.online/service/12</loc></url>
+  <url>
+    <loc>https://chilltech.online/service/1</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/ac-installation.jpg</image:loc>
+      <image:title>AC Installation Lahore</image:title>
+      <image:caption>Professional AC Installation Service in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/2</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/ac-repair.jpg</image:loc>
+      <image:title>AC Repair Lahore</image:title>
+      <image:caption>24/7 Emergency AC Repair and Maintenance in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/3</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/gas-filling.jpg</image:loc>
+      <image:title>AC Gas Filling Lahore</image:title>
+      <image:caption>AC Gas Filling and Leak Detection Service in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/4</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/refrigerator.jpg</image:loc>
+      <image:title>Refrigerator Repair Lahore</image:title>
+      <image:caption>Expert Refrigerator Repair Service in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/5</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/deep-freezer.png</image:loc>
+      <image:title>Deep Freezer Repair Lahore</image:title>
+      <image:caption>Deep Freezer and Commercial Cooling Repair in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/6</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/water-dispenser.png</image:loc>
+      <image:title>Water Dispenser Repair Lahore</image:title>
+      <image:caption>Water Dispenser Repair and Filter Cleaning in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/7</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/commercial-cooling.jpg</image:loc>
+      <image:title>Commercial Cooling Lahore</image:title>
+      <image:caption>Commercial Cooling Solutions and Chillers in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/8</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/ac-shifting.png</image:loc>
+      <image:title>AC Shifting Lahore</image:title>
+      <image:caption>AC Shifting and Relocation Service in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/9</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/contract-service.png</image:loc>
+      <image:title>AC Maintenance Contracts Lahore</image:title>
+      <image:caption>AC and Fridge Maintenance Contracts in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/10</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/ac-vent-service.png</image:loc>
+      <image:title>AC Vent Services Lahore</image:title>
+      <image:caption>AC Vent and Duct Cleaning Service in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/11</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/washing-machine-repair.png</image:loc>
+      <image:title>Washing Machine Repair Lahore</image:title>
+      <image:caption>Washing Machine Repair Service in Lahore</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chilltech.online/service/12</loc>
+    <lastmod>2026-02-02</lastmod>
+    <image:image>
+      <image:loc>https://chilltech.online/assets/maintainance.webp</image:loc>
+      <image:title>General Appliance Maintenance Lahore</image:title>
+      <image:caption>General Home Appliance Maintenance in Lahore</image:caption>
+    </image:image>
+  </url>
 
 </urlset>

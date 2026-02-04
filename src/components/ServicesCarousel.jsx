@@ -162,6 +162,10 @@ const ServicesCarousel = () => {
 
   return (
     <div style={containerStyle}>
+      {/* Hidden H1 for SEO */}
+      <h1 style={{ position: 'absolute', width: '1px', height: '1px', padding: '0', margin: '-1px', overflow: 'hidden', clip: 'rect(0,0,0,0)', border: '0' }}>
+        Best AC Repair and Cooling Services in Lahore - Chill Tech
+      </h1>
       <div style={discountBannerStyle}>20% OFF First Service!</div>
 
       <div style={sliderStyle}>
@@ -173,7 +177,7 @@ const ServicesCarousel = () => {
               ...(index === currentSlide ? slideActiveStyle : {}),
             }}
           >
-            <img src={service.image} alt={service.title} style={imageStyle} />
+            <img src={service.image} alt={service.imageAlt || service.title} style={imageStyle} />
             <div style={contentStyle}>
               <h2 style={headingStyle}>{service.title}</h2>
               <p style={paragraphStyle}>{service.shortDesc}</p>

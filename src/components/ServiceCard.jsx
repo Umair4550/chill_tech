@@ -40,7 +40,7 @@ const ServiceCard = ({ service }) => {
     <div className="service-card">
       {/* Card Header with Image */}
       <div className="card-header">
-        <img src={service.image} alt={service.title} />
+        <img src={service.image} alt={service.imageAlt || service.title} />
 
         {/* Badges Container */}
         <div className="badge-container">

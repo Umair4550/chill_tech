@@ -19,24 +19,24 @@ const ServiceDetails = () => {
       </div>
 
       {/* Service Image */}
-      <img src={service.image} alt={service.title} />
-      
+      <img src={service.image} alt={service.imageAlt || service.title} />
+
       {/* Service Title */}
       <h2>{service.title}</h2>
-    
+
       {/* Service Description */}
       <p>{service.fullDesc}</p>
-      
+
       {/* Features List (Optional) */}
       {service.features && (
-          <ul className="features-list">
-             
-            {service.features.map((feature, index) => (
-              <li key={index}>{feature}</li>
-            ))}
-          </ul>
+        <ul className="features-list">
+
+          {service.features.map((feature, index) => (
+            <li key={index}>{feature}</li>
+          ))}
+        </ul>
       )}
-      
+
       {/* Emergency Notice for Emergency Services */}
       {service.tag === 'Emergency' && (
         <div className="emergency-notice">
@@ -46,7 +46,7 @@ const ServiceDetails = () => {
           </p>
         </div>
       )}
-      
+
       {/* WhatsApp Booking Button */}
       <a
         className="book-now"
@@ -56,8 +56,8 @@ const ServiceDetails = () => {
       >
         <span>Book Now on WhatsApp</span>
       </a>
-      
-    
+
+
     </section>
   );
 };
